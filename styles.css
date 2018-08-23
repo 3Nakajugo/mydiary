@@ -1,0 +1,82 @@
+.borders{
+    border: 0px solid black;
+}
+.main-container {
+    width: 80%;
+    padding: 5px;
+    margin :0 auto;  
+}
+h3{
+    border: 0px solid black;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbarright{
+    float: right;
+}
+
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: darkred ;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.active {
+    background-color: #4CAF50;
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+.form1{margin: auto; 
+    text-align: center;
+    padding: 14px 16px;
+}
+fieldset { 
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px groove (internal value);
+}
+section#copyright{
+	background-color:black;
+	color:#fff;
+	font-size:10px;
+		
+}
+fieldset{
+border: 5px solid green;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+button{
+    border: 1px solid silver;
+}
+/* .rit{ */
+    /* margin-left: 90px; */
+    /* width: 66%; */
+    /* height: 60px; */
+    /* border-radius: 10px; */
+    /* margin-top: 10px; */
+    /* background-color: white; */
+    /* border: 0px; */
+  /* } */
