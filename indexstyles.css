@@ -55,8 +55,7 @@ section#copyright{
 }
 .button{
     border: 1px solid silver;
-    color: #333;
+   background-color:olivedrab;
     padding: 5px;
-    width: 80px
-    
+    width: 80px;  
 }
