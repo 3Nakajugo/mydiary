@@ -81,3 +81,18 @@ button{
     /* background-color: white; */
     /* border: 0px; */
   /* } */
+  .input{
+    border-radius:8px; 
+    font-size:20px; 
+    width:60%; 
+    margin-left:5%; 
+    margin-top:2%;
+  }
+  .button{
+    border: 1px solid silver;
+   background-color:olivedrab;
+    padding: 2px;
+    width: 80px;  
+    font-size: 20px;
+    margin-top: 5px;
+}

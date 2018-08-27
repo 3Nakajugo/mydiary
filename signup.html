@@ -33,43 +33,29 @@
                    
                        
                     <form action="" method="POST" autocomplete="on">
-                        <input type="text"  name="fname" placeholder="First Name" maxlength="15" value="" style="border-radius:8px; font-size:20px; width:60%; margin-left:5%;" /><br>
-                        <input type="text"  name="lname" placeholder="Last Name" maxlength="15" value="" style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;"/><br>                    
-                        <input type="text" name="username" placeholder="username" value="" maxlength="30" required style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;" /><br>
-                        <input type="password"  name="pass" placeholder="Password" maxlength="20" value=""required style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;"/><br>
-                        <input type="password"  name="pass2" placeholder="Confirm Password" maxlength="20" value=""  style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;"/><br>
+                        <input type="text"  name="fname" placeholder="First Name" maxlength="15" class="input" value="" required  /><br>
+                        <input type="text"  name="lname" placeholder="Last Name" class="input" maxlength="15" value="" required /><br>                    
+                        <input type="text" name="username" placeholder="username" class="input" value="" maxlength="30" required  /><br>
+                        <input type="password"  name="pass" placeholder="Password" class="input" maxlength="20" value=""required /><br>
+                        <input type="password"  name="pass2" placeholder="Confirm Password" class="input" maxlength="20" value=""  /><br>
                         <p style="margin-left:10%;font-style: oblique; font-size: 20px">Choose Gender <input type="radio"  name="sex" value="Male" style="margin-left:5%; font-style: oblique; font-size: 20px"/>Male<input type="radio"  name="sex" value="Female" checked style="margin-left:10%;font-style: oblique; font-size: 20px"/>Female</p>
-                        <input type="date" name="dob" placeholder="Date of Birth" maxlength="15"  value="" style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;"/>
+                        <input type="date" name="dob" placeholder="Date of Birth" maxlength="15"  value=""class="input" />
                         <p style="margin-left:20%; font-style: oblique; font-size: 20px;">Choose Country</p>
-                        <input list="countries" name="country" placeholder='Uganda' style="border-radius:8px; width:62.5%; font-size: 20px; margin-left:5%;  margin-top:0%;">
+                        <input list="countries" name="country" placeholder='Uganda' class="input" />
                         <datalist id="countries">
                             <option value="Uganda">
                             <option value="Kenya">
                             <option value="Tanzania">
                             <option value="Rwanda">
                             <option value="Burundi">
-                          </datalist>
-
-                      <!--  
-                        <option value="Uganda" >Uganda</option>
-                        <option value="Kenya" >Kenya</option>
-                        <option value="Tanzania" >Tanzania</option>
-                        <option value="Rwanda" >Rwanda</option>
-                        <option value="Burundi" >Burundi</option>
-                        <option value="South Sudan" >South Sudan</option>
-                        -->
-                        <input type="email"  name="email" placeholder="Email - example@example.com" maxlength="40" value="" style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;" />
-                        <input type="number"  name="telno" placeholder="Enter phone number" maxlength="10" value="" required style="border-radius:8px; font-size:20px; width:60%; margin-left:5%; margin-top:2%;" /><br>
-                                          
-                       <input type="submit"  name="btn-signup" value="Sign Up" style="border-radius:12px; font-size: 25px; margin-left:5%; margin-top:5%; align-self: auto;"/>
+                          </datalist><br>  
+                        <input type="email"  name="email" placeholder="Email - example@example.com" maxlength="40" value=""class="input" required />
+                        <input type="number"  name="telno" placeholder="Enter phone number" maxlength="10" value="" required class="input"/><br>
+                         <p style="font-size:25px; font-family:cursive;">Favourite color</p> <input type="color" value="choose fav color" class="input" />              
+                       <input type="submit"  name="btn-signup" value="Sign Up" class="button"/>
                        <hr />
                     </form>
                 </div>
-                <!-- <fieldset class="rit"> -->
-                        <!-- <marquee behavior="scroll" height="100" direction="right" scrollamount="1" class="scrl">  -->
-                                <!-- ALL THE ABOVE! -->
-                       <!-- </marquee>   -->
-                       <!-- </fieldset> -->
                        
                 <section id="copyright" style="text-align:center; font-family: TimesNew Romans; font-size: 16px;">
                         <span><a href="index.html">About Us</a> | <a href="index.html">Developers</a></span><br>

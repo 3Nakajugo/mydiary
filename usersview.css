@@ -39,19 +39,11 @@ ul.topnav li a:hover {background-color: #555;}
     padding: 14px 16px;
 }
 
-section#copyright{
-	background-color:black;
-	color:#fff;
-	font-size:10px;		
-}
-
-button{
-    border: 1px solid silver;
-}
 .table1{
-    position:absolute;
-    top:30%;
-    left:15%;
+    float:right;
+    margin-top:5%;
+    width: 70%;
+    margin-right:5%;
     border: 1px solid black;
      border-collapse: collapse; 
      background-color:rgb(245, 218, 236);
@@ -62,20 +54,47 @@ td,th{
     font-family: cursive;
     font-size: 15px;
     border-bottom:1px solid black;
-    border-right: 1px solid black;
+}
+.profile{
+    float: left;
+    width: 10%;
+    margin-top: 5%;
+}
+#timedate{
+    font: outline;
 }
 
-h3{
+/* h3{
     border: 0px solid black;
     width: 50%;
     margin: 0 auto;
     font-size: 50px;
     font-weight: bold;
     font-family: Verdana, Geneva;
-}
+} */
 .button{
     border: 1px solid silver;
    background-color:olivedrab;
     padding: 5px;
     width: 80px;  
+    border-radius:12px; 
+    font-size: 25px; 
+    margin-left:2%;  
+    align-self: auto;
+                                            
+}
+section#copyright{
+	background-color:black;
+	color:#fff;
+	font-size:10px;		
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size:50px;
+}
+.form2{
+border: 5px solid black;
+border-radius: 8px;
 }
