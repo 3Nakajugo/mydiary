@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ <html class="no-js"> 
     <head>
             
                     <script type="text/javascript">
@@ -33,16 +30,40 @@
                  </ul>
                  <br/>
                  <br/>
+                 <div class="profile">
+                            
+                        <img src="profile.png" alt="">
+                        <details>
+                                <summary >Diary Detials</summary>
+                                <form action="">
+                                        <p style="font-size:25px;"> <b> <i> Number of Entries </i></b></p>
+                                        <input list='entries' name="number of entires" value="" placeholder="number of entries"/>
+                                        <datalist id="entries">
+                                            <option value="20"></option>
+                                            <option value="30"></option>
+                                            <option value="6"></option>
+                                        </datalist>
+                                    </form>
+                        </details>
+                        
+                 </div>
                  <div class="form2">
                      <h2>Edit Entry</h2>
+                     <fieldset>
+                     <table   class="table2">
+                         <tr><td><span> date:</span><input type="date" name="date" placeholder="Date created" maxlength="15"  value="" class="input" /> </td></tr>
+                         <!-- <tr><td> <span> Title:</span>  
+                             <input class="input" type="text"/></td></tr> -->
+                         <tr>  <td><textarea cols="90" rows="30"></textarea></td></tr>
+                         <tr><td><input type="submit" style="margin-left:500px; margin-top: 0px;"   value="save" name="btn-save" class="button"  onClick="conf()"/></td></tr>   
+                     </table>
                      <form action="">
-                           <textarea cols="50" rows="10" ></textarea>
-
-                           <input type="submit"   value="save" name="btn-save" class="button"  onClick="conf()"/>
+                        <a href="userview.html"></a>
 
                      </form>
+                    </fieldset>
                  </div>
         </div>
-        <script src="" async defer></script>
+       
     </body>
 </html>

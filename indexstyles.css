@@ -1,7 +1,16 @@
 .flex-container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   
+}
+.borders{
+    border: 0px solid black;
+}
+.main-container {
+    width: 90%;
+    padding: 5px;
+    margin :0 auto;  
+    background-color: rgb(245, 221, 191);
 }
 body{
     background-image: url(image3.jpg); 
@@ -32,15 +41,12 @@ ul.topnav li a {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: darkred ;
+    text-decoration:none;
     transition: 0.3s;
-    font-size: 20px;
-}
-.active {
-    background-color: #4CAF50;
+    font-size: 25px;
 }
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {background-color: rgb(18, 202, 248);}
 .form1{margin: auto; 
     text-align: center;
     padding: 14px 16px;
@@ -53,16 +59,7 @@ section#copyright{
 	font-size:10px;
 		
 }
-.button{
-    border: 1px solid silver;
-   background-color:olivedrab;
-    padding: 5px;
-    width: 80px;  
-    margin-left:80px; 
-    margin-top: 20px;
-    font-size: 20px; 
-    border-radius: 4px;
-}
+
 .signin{
     float:right;
     width:40%;
@@ -78,4 +75,22 @@ fieldset{
     width:60%; 
     margin-left:20%; 
     margin-top:5%;
+}
+.button{
+    border:none;
+    color: bisque;
+   background-color: #006666;
+    padding: 16px ;
+    border-radius:8px; 
+    font-size: 20px; 
+    margin-left:180px; 
+    text-decoration: none; 
+    /* float: left; */
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: center;                                           
+}
+
+.button:hover {
+    background-color:#00cccc;
 }
