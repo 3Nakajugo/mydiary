@@ -52,7 +52,11 @@ ul.topnav li a:hover {background-color: rgb(18, 202, 248);}
     padding: 14px 16px;
 }
 
-
+.About{
+    border: 5px solid black;
+    border-radius: 8px;
+    background-color:rgb(245, 221, 191);
+}
 section#copyright{
 	background-color:black;
 	color:#fff;

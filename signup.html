@@ -13,7 +13,7 @@
             <div class="borders main-container">
                     <ul class="topnav" id="myTopnav">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html">Login</a></li> 
+                            <!-- <li><a href="index.html">Login</a></li>  -->
                             <!-- <li><a href="userview.html">View stories</a></li> -->
                             <span class="navbarright">
                                 <li><a href="signup.html">Create Account</a></li>
@@ -35,12 +35,15 @@
                     <form action="" method="POST" autocomplete="on">
                         <input type="text"  name="fname" placeholder="First Name" maxlength="15" class="input" value="" required  /><br>
                         <input type="text"  name="lname" placeholder="Last Name" class="input" maxlength="15" value="" required /><br>                    
-                        <input type="text" name="username" placeholder="username" class="input" value="" maxlength="30" required  /><br>
+                        <input type="text" name="username" placeholder="Username" class="input" value="" maxlength="30" required  /><br>
                         <input type="password"  name="pass" placeholder="Password" class="input" maxlength="20" value=""required /><br>
                         <input type="password"  name="pass2" placeholder="Confirm Password" class="input" maxlength="20" value=""  /><br>
+                        <input type="email"  name="email" placeholder="Email - example@example.com" maxlength="40" value=""class="input" required />
+                        <p style="font-size:20px; font-style: oblique ">Favourite color</p> <input type="color" value="choose fav color" class="input" />  <br>
                         <p style="margin-left:10%;font-style: oblique; font-size: 20px">Choose Gender <input type="radio"  name="sex" value="Male" style="margin-left:5%; font-style: oblique; font-size: 20px"/>Male<input type="radio"  name="sex" value="Female" checked style="margin-left:10%;font-style: oblique; font-size: 20px"/>Female</p>
+                        <p style="font-style: oblique; font-size: 20px">Date of birth</p>
                         <input type="date" name="dob" placeholder="Date of Birth" maxlength="15"  value=""class="input" />
-                        <p style="margin-left:20%; font-style: oblique; font-size: 20px;">Choose Country</p>
+                        <p style=" font-style: oblique; font-size: 20px;">Choose Country</p>
                         <input list="countries" name="country" placeholder='Uganda' class="input" />
                         <datalist id="countries">
                             <option value="Uganda">
@@ -49,13 +52,10 @@
                             <option value="Rwanda">
                             <option value="Burundi">
                           </datalist><br>  
-                        <input type="email"  name="email" placeholder="Email - example@example.com" maxlength="40" value=""class="input" required />
-                        <!-- <input type="number"  name="telno" placeholder="Enter phone number" maxlength="10" value="" required class="input"/><br> -->
-                         <p style="font-size:25px; font-family:cursive; ">Favourite color</p> <input type="color" value="choose fav color" class="input" />  <br>            
-                      <!-- <a href="index.html"><input type="submit"  name="btn-signup" value="Sign Up" class="button"/></a> -->
+                                   
                        
                     </form>
-                    <a href="index.html"><input type="submit"  name="btn-signup" value="Sign Up" class="button"/></a>
+                    <a href="index.html"><input type="submit"  name="btn-create" value="Create" class="button"/></a>
                     <hr/>
                 </div>
                        
