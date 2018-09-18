@@ -1,0 +1,100 @@
+.flex-container{
+    width: 90%;
+    margin: 0 auto;
+  
+}
+.borders{
+    border: 0px solid black;
+}
+.main-container {
+    width: 90%;
+    padding: 5px;
+    margin :0 auto;  
+    background-color: rgb(245, 221, 191);
+}
+body{
+    background-image: url(image3.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:#996666;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbarright{
+    float: right;
+}
+
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    transition: 0.3s;
+    font-size: 25px;
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: rgb(18, 202, 248);}
+.form1{margin: auto; 
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.About{
+    border: 5px solid black;
+    border-radius: 8px;
+    background-color:rgb(245, 221, 191);
+}
+section#copyright{
+	background-color:black;
+	color:#fff;
+	font-size:10px;
+		
+}
+
+.signin{
+    float:right;
+    width:40%;
+}
+fieldset{
+    border-radius:8px; 
+    border: 5px solid black; 
+    background-color: rgb(245, 221, 191);
+}
+.input{
+    border-radius:8px; 
+    font-size:30px; 
+    width:60%; 
+    margin-left:20%; 
+    margin-top:5%;
+}
+.button{
+    border:none;
+    color: bisque;
+   background-color: #006666;
+    padding: 16px ;
+    border-radius:8px; 
+    font-size: 20px; 
+    margin-left:180px; 
+    text-decoration: none; 
+    /* float: left; */
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: center;                                           
+}
+
+.button:hover {
+    background-color:#00cccc;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>diary content</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="usersview.css">
+    </head>
+    <body>
+            <div class="borders main-container">
+                    <img src="logo.png" alt="image of A DIARY" algin="center"/>
+                    <ul class="topnav" id="myTopnav">
+                            <li><a href="index.html">Home</a></li>
+                            <!-- <li><a href="index.html">Login</a></li>  -->
+                            <li><a href="userview.html">View stories</a></li>
+                            <span class="navbarright">
+                                <!-- <li><a href="signup.html">Create Account</a></li> -->
+                                <li><a href="index.html">logout</a></li>
+                            </span>
+                     </ul>
+                     <div class="profile">
+                            
+                            <img src="profile.png" alt="">
+                            <details>
+                                    <summary >Diary Detials</summary>
+                                    <form action="">
+                                            <p style="font-size:20px; font-family:'Arial Narrow';"> <b> <i> Number of Entries </i></b></p>
+                                            <input list='entries' class="input" name="number of entires" value="" placeholder="number of entries"/>
+                                            <datalist id="entries">
+                                                <option value="20"></option>
+                                                <option value="30"></option>
+                                                <option value="6"></option>
+                                            </datalist>
+                                           <p style="font-size:20px; font-family:'Arial Narrow';"> <b> <i> Set Remainder</i></b></p> 
+                                           <input type="date"/> <br>
+                                           <input type="time" style="margin-top:10px;"/> <br>
+                                           <input type="submit"  name="btn-set" class="button" onclick="clickAlert()" value="set" />
+
+                                        </form>
+                            </details>
+                            <a href="editentry.html"><input type="submit"  name="btn-save" class="button" value="add entry" /></a>
+                            
+                     </div>
+                     <!-- div for table -->
+                     <div  class="table1">
+                         <table>
+                             <tr>
+                                 <th>Date</th>
+                                 <th>Entries</th>
+                                 <th>Choose Button</th>
+                             </tr>
+                             <tr>
+                                 <td>1/08/2005</td>
+                                 <td>the day has been of great value to me and all praise and glory goes to god</td>
+                                 <td>
+                                        <input type="submit"  name="btn-delete" class="button" onclick="clickAlert()" value="delete"/>
+                                       <a href="editentry.html"> <input type="submit"  name="btn-edit" class="button" value="edit"/></a>
+                                 </td>
+                             </tr>
+                             <tr>
+                                    <td>1/08/2006</td>
+                                    <td>the day has been of great value to me and all praise and glory goes to god</td>
+                                    <td>
+                                           <input type="submit"  name="btn-delete" class="button" onclick="clickAlert()" value="delete" />
+                                         <a href="editentry.html">  <input type="submit"  name="btn-edit" class="button" value="edit" /></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                        <td>1/08/2007</td>
+                                        <td>the day has been of great value to me and all praise and glory goes to god</td>
+                                        <td>
+                                               <input type="submit"  name="btn-delete" class="button" onclick="clickAlert()" value="delete"/>
+                                              <a href="editentry.html"> <input type="submit"  name="btn-edit" class="button" value="edit" /></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                            <td>1/08/2008</td>
+                                            <td>the day has been of great value to me and all praise and glory goes to god</td>
+                                            <td>
+                                                   <input type="submit"  name="btn-delete" class="button" onclick="clickAlert()" value="delete" />
+                                                  <a href="editentry.html"><input type="submit"  name="btn-edit" class="button" value="edit" /></a> 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                                <td>1/08/2009</td>
+                                                <td>the day has been of great value to me and all praise and glory goes to god</td>
+                                                <td>
+                                                       <input type="submit"  name="btn-delete" onclick="clickAlert()" class="button" value="delete" />
+                                                     <a href="editentry.html"><input type="submit"  name="btn-edit" class="button" value="edit" /></a>   
+                                                </td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td></td>
+                                            <td>
+                                                <form action="">
+                                                    <textarea name="" id="" cols="15" rows="5" autofocus="autofocus">great minds</textarea>
+                                                </form>
+                                            </td>
+                                            <td>
+                                                 <a href="editentry.html"><input type="submit"  name="btn-save" class="button" value="add entry" /></a>    
+                                            </td>
+                                            </tr> -->
+                             
+
+                         </table>
+                      
+
+                     </div> 
+            </div>
+           
+
+<script type="text/javascript">
+    var d = new Date();
+document.getElementById("timedate").innerHTML = d;
+
+function clickAlert() {
+    window.alert("Are you sure?");
+}
+</script>
+    </body>
+</html>

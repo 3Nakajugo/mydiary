@@ -1,0 +1,100 @@
+.borders{
+    border: 0px solid black;
+}
+.main-container {
+    width: 90%;
+    padding: 5px;
+    margin :0 auto;  
+    background-color: white;
+}
+h3{
+
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva;
+    color: #006666;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbarright{
+    float: right;
+}
+
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: darkred ;
+    transition: 0.3s;
+    font-size: 25px;
+}
+.active {
+    background-color: rgb(230, 26, 11);
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: rgb(18, 202, 248);}
+.form1{margin: auto; 
+    text-align: center;
+    padding: 14px 16px;
+}
+fieldset { 
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px groove (internal value);
+}
+section#copyright{
+	background-color:black;
+	color:#fff;
+	font-size:10px;
+		
+}
+fieldset{
+border: 5px solid green;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color:#00cccc;
+}
+body{
+    background-color: #006666;
+}
+.button{
+    border:none;
+    color: bisque;
+    background-color: #006666;
+   
+    padding: 16px ;
+    border-radius:8px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: center;
+    display:inline-block;
+                                            
+}
+  .input{
+    border-radius:8px; 
+    font-size:20px; 
+    width:60%; 
+    margin-left:5%; 
+    margin-top:2%;
+  }

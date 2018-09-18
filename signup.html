@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SIGN UP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+           
+            <div class="borders main-container">
+                    <ul class="topnav" id="myTopnav">
+                            <li><a href="index.html">Home</a></li>
+                            <!-- <li><a href="index.html">Login</a></li>  -->
+                            <!-- <li><a href="userview.html">View stories</a></li> -->
+                            <span class="navbarright">
+                                <li><a href="signup.html">Create Account</a></li>
+                                <li><a href="index.html">logout</a></li>
+                            </span>
+                            
+                          </ul>
+        
+                <!-- div for header -->
+                <div class="header">
+                        <h3 style="text-align:center;">Create Account</h3>
+                </div>
+                <br>
+                <br>
+                <!-- div for form -->
+                <div class="form1">
+                   
+                       
+                    <form action="" method="POST" autocomplete="on">
+                        <input type="text"  name="fname" placeholder="First Name" maxlength="15" class="input" value="" required  /><br>
+                        <input type="text"  name="lname" placeholder="Last Name" class="input" maxlength="15" value="" required /><br>                    
+                        <input type="text" name="username" placeholder="Username" class="input" value="" maxlength="30" required  /><br>
+                        <input type="password"  name="pass" placeholder="Password" class="input" maxlength="20" value=""required /><br>
+                        <input type="password"  name="pass2" placeholder="Confirm Password" class="input" maxlength="20" value=""  /><br>
+                        <input type="email"  name="email" placeholder="Email - example@example.com" maxlength="40" value=""class="input" required />
+                        <p style="font-size:20px; font-style: oblique ">Favourite color</p> <input type="color" value="choose fav color" class="input" />  <br>
+                        <p style="margin-left:10%;font-style: oblique; font-size: 20px">Choose Gender <input type="radio"  name="sex" value="Male" style="margin-left:5%; font-style: oblique; font-size: 20px"/>Male<input type="radio"  name="sex" value="Female" checked style="margin-left:10%;font-style: oblique; font-size: 20px"/>Female</p>
+                        <p style="font-style: oblique; font-size: 20px">Date of birth</p>
+                        <input type="date" name="dob" placeholder="Date of Birth" maxlength="15"  value=""class="input" />
+                        <p style=" font-style: oblique; font-size: 20px;">Choose Country</p>
+                        <input list="countries" name="country" placeholder='Uganda' class="input" />
+                        <datalist id="countries">
+                            <option value="Uganda">
+                            <option value="Kenya">
+                            <option value="Tanzania">
+                            <option value="Rwanda">
+                            <option value="Burundi">
+                          </datalist><br>  
+                                   
+                       
+                    </form>
+                    <a href="index.html"><input type="submit"  name="btn-create" value="Create" class="button"/></a>
+                    <hr/>
+                </div>
+                       
+                <section id="copyright" style="text-align:center; font-family: TimesNew Romans; font-size: 16px;">
+                        <span><a href="index.html">About Us</a> | <a href="index.html">Developers</a></span><br>
+                        <span>Copyright © 2018 Reserved <br>My Diary</span><br>
+                        </section>
+            </div>
+          
+        
+        
+    </body>
+</html>
